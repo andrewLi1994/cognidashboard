@@ -3,7 +3,31 @@
     "id": "ins-20260514_220142_41ace5-d",
     "conversationId": "20260514_220142_41ace5",
     "type": "reflection",
-    "content": "你在这一轮中进行了深度追问和迭代讨论，这种多轮对话能产生更深层的认知。继续保持这种探索式的交流习惯。",
+    "content": "你在这一轮中进行了深度追问和迭代讨论（多轮来回），这种探索式交流能产生更深层的认知。继续保持。",
     "createdAt": "2026-05-14T12:30:00Z"
+  },
+  {
+    "id": "ins-20260516_034314_0f30c1-d",
+    "conversationId": "20260516_034314_0f30c1",
+    "type": "reflection",
+    "content": "你在这一轮中进行了深度追问和迭代讨论（多轮来回），这种探索式交流能产生更深层的认知。继续保持。",
+    "createdAt": "2026-05-16T12:30:00Z"
+  },
+  {
+    "id": "ins-20260516_034314_0f30c1-q",
+    "conversationId": "20260516_034314_0f30c1",
+    "type": "reflection",
+    "content": "你的提问很详细（平均 630 字），有丰富的上下文。这是高质量对话的基础——AI 越了解你的场景，回答越精准。",
+    "createdAt": "2026-05-16T12:00:00Z"
+  },
+  {
+    "id": "ins-cross-tags",
+    "conversationId": "20260514_220142_41ace5",
+    "type": "connection",
+    "content": "你最近的对话都涉及 React/Vite, TypeScript, Git/GitHub 方向。考虑将这些知识系统化整理成笔记或博客，形成知识体系。",
+    "relatedConversationIds": [
+      "20260516_034314_0f30c1"
+    ],
+    "createdAt": "2026-05-16T14:00:00Z"
   }
 ]
