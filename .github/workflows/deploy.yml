@@ -30,10 +30,12 @@ jobs:
           cache: pnpm
       - run: pnpm install --frozen-lockfile
       - run: pnpm build
-      - run: cp -r dist/* .
+      - run: |
+          mkdir -p _pages
+          cp -r dist/* _pages/
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: .
+          path: _pages
       - uses: actions/deploy-pages@v4
         id: deployment
